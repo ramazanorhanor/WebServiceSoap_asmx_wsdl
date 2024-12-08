@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesDemo", "WebServicesDemo\WebServicesDemo.csproj", "{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApplicationComsuming", "CalculatorWebApplicationComsuming\CalculatorWebApplicationComsuming.csproj", "{6258AB00-85F6-4E78-9C3B-B4948E534578}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460} = {B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServisJavaScript", "WebServisJavaScript\WebServisJavaScript.csproj", "{B674DD39-42C9-4328-BAB2-6C39F3D99AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerProductWebService", "ServerProductWebService\ServerProductWebService.csproj", "{05D0EE1B-22EA-4E28-80CD-7DC352991531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientProductwebServise", "ClientProductwebServise\ClientProductwebServise.csproj", "{7AD2C34E-2B0A-4820-96EB-03D4B5D60854}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05D0EE1B-22EA-4E28-80CD-7DC352991531} = {05D0EE1B-22EA-4E28-80CD-7DC352991531}
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460} = {B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceTCKimlikDogrulama", "WebServiceTCKimlikDogrulama\WebServiceTCKimlikDogrulama.csproj", "{40C579DA-C86A-4763-A782-8AA66EA1F269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81FA7BE-C1E7-42EA-AD68-FDA87CBAA460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6258AB00-85F6-4E78-9C3B-B4948E534578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6258AB00-85F6-4E78-9C3B-B4948E534578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6258AB00-85F6-4E78-9C3B-B4948E534578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6258AB00-85F6-4E78-9C3B-B4948E534578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B674DD39-42C9-4328-BAB2-6C39F3D99AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B674DD39-42C9-4328-BAB2-6C39F3D99AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B674DD39-42C9-4328-BAB2-6C39F3D99AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B674DD39-42C9-4328-BAB2-6C39F3D99AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D0EE1B-22EA-4E28-80CD-7DC352991531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D0EE1B-22EA-4E28-80CD-7DC352991531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D0EE1B-22EA-4E28-80CD-7DC352991531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D0EE1B-22EA-4E28-80CD-7DC352991531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD2C34E-2B0A-4820-96EB-03D4B5D60854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD2C34E-2B0A-4820-96EB-03D4B5D60854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD2C34E-2B0A-4820-96EB-03D4B5D60854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD2C34E-2B0A-4820-96EB-03D4B5D60854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C579DA-C86A-4763-A782-8AA66EA1F269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C579DA-C86A-4763-A782-8AA66EA1F269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C579DA-C86A-4763-A782-8AA66EA1F269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C579DA-C86A-4763-A782-8AA66EA1F269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812AA774-CBF8-4CEA-90EB-92A1DBE9D5AB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://desktop-at01ljp/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebServicesDemo\\WebServicesDemo.csproj
+		SccProjectName1 = WebServicesDemo
+		SccLocalPath1 = WebServicesDemo
+		SccProjectUniqueName2 = CalculatorWebApplicationComsuming\\CalculatorWebApplicationComsuming.csproj
+		SccProjectName2 = CalculatorWebApplicationComsuming
+		SccLocalPath2 = CalculatorWebApplicationComsuming
+		SccProjectUniqueName3 = WebServisJavaScript\\WebServisJavaScript.csproj
+		SccProjectName3 = WebServisJavaScript
+		SccLocalPath3 = WebServisJavaScript
+		SccProjectUniqueName4 = ServerProductWebService\\ServerProductWebService.csproj
+		SccProjectName4 = ServerProductWebService
+		SccLocalPath4 = ServerProductWebService
+		SccProjectUniqueName5 = ClientProductwebServise\\ClientProductwebServise.csproj
+		SccProjectName5 = ClientProductwebServise
+		SccLocalPath5 = ClientProductwebServise
+		SccProjectUniqueName6 = WebServiceTCKimlikDogrulama\\WebServiceTCKimlikDogrulama.csproj
+		SccProjectName6 = WebServiceTCKimlikDogrulama
+		SccLocalPath6 = WebServiceTCKimlikDogrulama
+	EndGlobalSection
+EndGlobal

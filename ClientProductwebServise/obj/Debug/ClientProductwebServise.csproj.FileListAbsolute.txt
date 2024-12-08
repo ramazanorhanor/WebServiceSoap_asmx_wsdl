@@ -1,0 +1,9 @@
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\bin\Debug\ClientProductwebServise.exe.config
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\bin\Debug\ClientProductwebServise.exe
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\bin\Debug\ClientProductwebServise.pdb
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.Form1.resources
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.Properties.Resources.resources
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.csproj.GenerateResource.cache
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.csproj.CoreCompileInputs.cache
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.exe
+D:\TubitakSage\WebServisleriAlperCelik\WebServices\ClientProductwebServise\obj\Debug\ClientProductwebServise.pdb
